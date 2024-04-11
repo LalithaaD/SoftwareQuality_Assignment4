@@ -31,7 +31,9 @@ public class InsuranceQuotesTest
             driver.Dispose();
         }
     }
+
     string baseURL = "http://localhost/prog8171a04/prog8171a04/";
+
     [Test]
     public void InsuranceQuote01_Age24_DriveExp3_Accidents0()
     {
